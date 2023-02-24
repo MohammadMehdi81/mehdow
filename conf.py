@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+pip install furo
+
 import sys
 import os
 import re
@@ -51,7 +53,7 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'furo'
 html_theme_options = {
     'logo_only': True,
     'navigation_depth': 5,
