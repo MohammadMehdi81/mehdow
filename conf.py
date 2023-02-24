@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-$ pip install furo
+python -m pip install furo
 
 import sys
 import os
